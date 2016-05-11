@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+	"parameters": {
+		"dnsNamePrefix": {
+			"value": "tintoydcostest3"
+		},
+		"linuxAdminUsername": {
+			"value": "tintoy"
+		},
+		"sshRSAPublicKey": {
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6C+Au83DxV6vTCACcActH/Adjmg66mr+RC2Icg8zxPfLD8duMTI9jGLZOT/5vhY8fLcSOXDmafiiJOUiIl2PHe5YR2sk/Jepe5lOrOr+Cs9xBp7fcPlYh/V7KH5snqVsv3Xc8l79gOAKQR3vcZY3gqpP+4WC8NanCz1S+0xkXay3j6G0+uto8Xfl/p+JwyyYC8sIsJ/rS+eD5LlD/7YGsBYXdc3XRYqodxaxbel6f8PVN18LslESEEyWLrSuf0Wr0kyKAW+juAyKCmJYLKU3o0cLzX30yRDb0WkeJfkU8ekibUJ+3iAufJsmzhws7mOyeWz5bEQy4QQoMNExjO/Kb tintoy@skinner-box.local"
+		}
+	}
+}

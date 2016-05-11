@@ -26,7 +26,7 @@
     "adminUsername": "[parameters('linuxAdminUsername')]",
     "agentCount": "[int('2')]",
     "agentsEndpointDNSNamePrefix": "[concat(parameters('dnsNamePrefix'),'agents')]",
-    "agentVMSize": "['Standard_D2']",
+    "agentVMSize": "['Standard_A3']",
     "masterCount": "[int('1')]",
     "mastersEndpointDNSNamePrefix": "[concat(parameters('dnsNamePrefix'),'mgmt')]",
     "orchestratorType": "['DCOS']",
